@@ -1,7 +1,7 @@
 pipeline {
     agent any
     
-    patameters {
+    parameters {
         string(name: 'GREETING', defaultValue: 'Hello', description: 'Greeting to display')
     }
     
